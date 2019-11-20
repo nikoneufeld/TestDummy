@@ -7,6 +7,7 @@ func say(_ str: String) {
 struct Sayer {
     init(_ args: [String] = CommandLine.arguments) {
          arguments = args
+        fatalError()
     }
     var a = 1
     var arguments: [String]
